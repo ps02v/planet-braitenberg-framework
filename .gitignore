@@ -2,16 +2,36 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/Planet Braitenberg Framework/[Ll]ibrary/
+/Planet Braitenberg Framework/[Tt]emp/
+/Planet Braitenberg Framework/[Oo]bj/
+/Planet Braitenberg Framework/[Bb]uild/
+/Planet Braitenberg Framework/[Bb]uilds/
+/Planet Braitenberg Framework/[Ll]ogs/
+/Planet Braitenberg Framework/[Mm]emoryCaptures/
+
+#Exclude temporary files and dependencies
+/Planet Braitenberg Framework/Assets/Excluded/
+/Planet Braitenberg Framework/Assets/Plugins/
+#/Planet Braitenberg Framework/Assets/Terrain Toolkit 2017/
+#/Planet Braitenberg Framework/Assets/PostProcessing/
+/Planet Braitenberg Framework/Assets/Standard Assets/
+/Planet Braitenberg Framework/Assets/Unity Technologies/
+/Planet Braitenberg Framework/Assets/Todo.txt
+/Planet Braitenberg Framework/Assets/Video Course.txt
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+#Exclude the following meta files
+/Planet Braitenberg Framework/Assets/Excluded.meta
+/Planet Braitenberg Framework/Assets/Plugins.meta
+/Planet Braitenberg Framework/Assets/Standard Assets.meta
+/Planet Braitenberg Framework/Assets/Unity Technologies.meta
+/Planet Braitenberg Framework/Assets/Todo.txt.meta
+/Planet Braitenberg Framework/Assets/Video Course.txt.meta
+/Planet Braitenberg Framework/Assets/EyeTestData.meta
+/Planet Braitenberg Framework/Assets/Terrain Toolkit 2017/heparo/terrain/toolkit/original/TerrainToolkit_1_0_2.unitypackage.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
