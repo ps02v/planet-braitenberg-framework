@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14b66353575e1a4daf7ae4ec88f18b5, type: 3}
+  m_Name: LustRotationProfile
+  m_EditorClassIdentifier: 
+  curveType: rotation
+  curve:
+    keys:
+    - inTangent: 0
+      outTangent: 746.43994
+      tangentMode: 69
+      time: 0
+      value: 0
+    - inTangent: 746.43994
+      outTangent: 0.733775
+      tangentMode: 69
+      time: 0.025836214
+      value: 19.285183
+    - inTangent: 0.733775
+      outTangent: 0
+      tangentMode: 69
+      time: 1
+      value: 20
+    postWrapMode: ClampForever
+    preWrapMode: ClampForever

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14b66353575e1a4daf7ae4ec88f18b5, type: 3}
+  m_Name: LustMotorProfile
+  m_EditorClassIdentifier: 
+  curveType: motor
+  curve:
+    keys:
+    - inTangent: 0
+      outTangent: 0
+      tangentMode: 0
+      time: 0
+      value: 0
+    - inTangent: 321.2579
+      outTangent: 321.2579
+      tangentMode: 0
+      time: 0.100944
+      value: 200.68073
+    - inTangent: 14.706847
+      outTangent: 14.706847
+      tangentMode: 0
+      time: 1
+      value: 300
+    postWrapMode: ClampForever
+    preWrapMode: ClampForever
